@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  ia_parcial2:
+    build: .
+    container_name: parcial2_ia
+    volumes:
+      - .:/app
+    tty: true
